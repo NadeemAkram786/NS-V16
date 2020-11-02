@@ -1,0 +1,593 @@
+/* LAPTOP VIEW STYLE STARTS */
+/* Navbar */
+.Nishchaiy-navbar {
+  background-color: #ffa5a5;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.brand-image-div {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+}
+
+.brand-image {
+  width: 350px;
+}
+
+.top-right-menu {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+}
+
+.menu-links {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.menu-links:hover {
+  background-color: #fcf876;
+  text-decoration: none;
+  color: #ffa5a5;
+}
+
+/* Top Container */
+.top-container {
+  background-image: linear-gradient(to right, white, white, #ffa5a5, #ffa5a5);
+  padding: 30px;
+}
+
+.man-image {
+  display: inline-block;
+  position: relative;
+}
+
+.man-in-work {
+  width: 700px;
+  padding-top: 80px;
+}
+
+.slogan-dropdown {
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  right: 70px;
+}
+
+.slogan-text-div {
+  text-align: center;
+}
+
+.slogan-text {
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #495464;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.city-dropdown-parent {
+  text-align: center;
+}
+
+.city-dropdown-child {
+  background-color: white;
+  width: 250px;
+  position: relative;
+  left: 115px;
+  top: 30px;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.city-dropdown-menu {
+  width: 80%;
+  color: #ff4d94;
+}
+
+/* Middle Container */
+.middle-container {
+  padding: 30px;
+  margin: 100px 0px 100px 0px;
+}
+
+.why {
+  display: inline-block;
+  position: relative;
+  margin-left: 70px;
+}
+
+.why-text-one {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.why-text-two {
+  margin: 30px 0px 42px 0px;
+}
+
+.why-text-three {
+  margin: 42px 0px;
+}
+
+.why-text-four {
+  margin: 42px 0px;
+}
+
+.satisfaction {
+  display: inline-block;
+  position: absolute;
+  background-color: #fcf1f1;
+  right: 120px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 0px 100px;
+}
+
+/* Line Separator */
+.line-separator {
+  background-color: #ffa5a5;
+  height: 15px;
+  margin: 10px 0px;
+}
+
+/* House Hold items */
+.house-hold-items {
+  padding: 30px 2px 140px 0px;
+}
+
+.house-hold-item-image-div {
+  position: relative;
+  display: inline-block;
+  left: 80px;
+  top: 50px;
+}
+
+.house-hold-item-pic {
+  width: 450px;
+}
+
+.house-hold-item-text-div {
+  position: absolute;
+  display: inline-block;
+  right: 140px;
+  margin-top: 120px;
+}
+
+.houseHoldH3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Fruits and Vegetables */
+.fruits {
+  padding: 20px;
+  margin: 0px 0px 350px 0px;
+}
+
+.fruits-text-div {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  top: 210px;
+  left: 60px;
+}
+
+.fruits-image-div {
+  position: absolute;
+  display: inline-block;
+  right: 60px;
+  margin-top: 70px;
+}
+
+.fruits-image {
+  width: 450px;
+}
+
+.fruits-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Ladies items */
+.lad-item {
+  margin: 0px 0px 150px 0px;
+}
+
+.lad-image-div {
+  position: relative;
+  display: inline-block;
+  top: 80px;
+  left: 70px;
+}
+
+.lad-image {
+  width: 400px;
+}
+
+.lad-text-div {
+  position: absolute;
+  display: inline-block;
+  right: 150px;
+  margin-top: 160px;
+}
+
+.lad-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Bottom Container */
+.bottom-container {
+  background-color: #ffa5a5;
+  padding: 20px 10px 50px 20px;
+}
+
+.footer-link-div {
+  text-align: center;
+}
+
+.footer-link {
+  color: white;
+  font-weight: bold;
+  margin: 0px 20px;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #fcf876;
+}
+
+.footer-line-div {
+  height: 1px;
+  background-color: white;
+  position: relative;
+  width: 80%;
+  top: 30px;
+  left: 105px;
+  margin: 0px 0px 60px 0px;
+}
+
+.social-icons-div {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 0px 20px;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #fcf876;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.copyright-para {
+  color: white;
+}
+
+/* LAPTOP VIEW STYLE ENDS */
+
+/* Hide mobile view on laptop screen  */
+.mob-navbar-div-parent {
+  display: none;
+}
+.top-container-mob {
+  display: none;
+}
+.city-mob {
+  display: none;
+}
+.why-mob {
+  display: none;
+}
+.line-separator-mob {
+  display: none;
+}
+.house-hold-mob {
+  display: none;
+}
+.line-separator2-mob {
+  display: none;
+}
+.fruits-mob {
+  display: none;
+}
+.lad-item-mob {
+  display: none;
+}
+.footer-mob {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1094px) {
+
+/* Hide Laptop view in mobile mode */
+.Nishchaiy-navbar {
+  display: none;
+}
+.top-container {
+  display: none;
+}
+.middle-container {
+  display: none;
+}
+.line-separator {
+  display: none;
+}
+.house-hold-items {
+  display: none;
+}
+.fruits {
+  display: none
+}
+.lad-item {
+  display: none;
+}
+.bottom-container {
+  display: none;
+}
+
+
+ /* MOBILE VIEW STYLE STARTS HERE */
+
+/* Navbar and collapsed side panel Mob */
+.mob-navbar-div-parent {
+  display: block;
+}
+.mob-navbar-div-child {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #ffa5a5;
+  padding: 40px 0px;
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffa5a5;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 200px;
+  text-align: center;
+}
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin: 50px 0px;
+  font-size: 60px;
+}
+.sidepanel a:hover {
+  color: #fcf876;
+}
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 100px;
+}
+.nishchaiy-navbar-mob {
+  text-align: center;
+  color: white;
+}
+.hambuger-menu-div {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.hambuger-menu {
+  font-size: 80px;
+}
+.slogan-mob-div {
+  display: inline-block;
+}
+.slogan-mob-text {
+  font-size: 60px;
+}
+
+
+/* top container mob*/
+.top-container-mob {
+  display: block;
+  position: relative;
+  padding-bottom: 750px;
+}
+.mob-logo-div {
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.mob-logo2-div {
+  display: inline-block;
+  position: absolute;
+  top: 451px;
+  left: 115px;
+}
+.man-in-work-mob-div {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 200px;
+}
+.boy-image-mob {
+  width: 600px;
+}
+
+
+/* City Select Mob*/
+.city-mob {
+  display: block;
+  background-color: #ffa5a5;
+  padding: 50px 0 100px 0px;
+}
+.city-dropdown-parent-div-mob {
+  text-align: center;
+}
+.city-dropdown-child-div-mob {
+  background-color: white;
+  width: 750px;
+  position: relative;
+  left: 115px;
+  top: 30px;
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.city-select-para-mob {
+  font-size: 50px;
+}
+.city-dropdown-menu-mob {
+  color: #ffa5a5;
+  font-size: 50px;
+  width: 85%;
+  margin: 30px 0px 0px 0px;
+}
+
+
+/* Why Container Mob*/
+.why-mob {
+  display: block;
+  position: absolute;
+  padding: 50px 0px;
+  margin-top: 50px;
+  left: 100px;
+}
+.why-text-mob {
+  font-size: 60px;
+}
+.why-quality-mob {
+  text-align: center;
+}
+.quality-image-mob-div {
+  background-color: #fcf1f1;
+  margin: 50px 20px 20px 20px;
+  border-radius: 20px;
+  padding: 30px 0px;
+}
+.why-reason-mob {
+  position: relative;
+  left: 30px;
+}
+.why-text2-mob {
+  font-size: 50px;
+  color: grey;
+}
+.why-text3-mob {
+  font-size: 25px;
+  color: grey;
+}
+.reason-text-mob {
+  font-size: 50px;
+  margin: 70px 0px;
+}
+
+
+/* Line Separator Mob */
+.line-separator-mob {
+  display: block;
+  margin: 1100px 0px 30px 0px;
+  height: 20px;
+  background-color: #ffa5a5;
+}
+
+
+/* Houe Hold Mob */
+.house-hold-mob {
+  display: block;
+  text-align: center;
+  padding: 20px 0px 60px 0px;
+}
+.house-hold-img-mob {
+  width: 75%;
+}
+.repair-mob-text {
+  font-size: 50px;
+}
+
+
+/* Line Separator2 Mob */
+.line-separator2-mob {
+  display: block;
+  height: 20px;
+  background-color: #ffa5a5;
+  margin: 10px 0px;
+}
+
+
+/* Fruits and Veg Mob */
+.fruits-mob {
+  display: block;
+  padding: 40px 0px;
+  text-align: center;
+}
+.fruits-mob-img {
+  width: 80%;
+  margin: 0px 0px 20px 0px;
+}
+.fruits-text-mob {
+  font-size: 50px;
+}
+
+
+/* Ladies Items Mob */
+.lad-item-mob {
+  display: block;
+  text-align: center;
+  padding: 40px 0px;
+}
+.lad-img-mob {
+  width: 70%;
+}
+.lad-text-mob {
+  font-size: 50px;
+}
+
+
+/* Footer mob */
+.footer-mob {
+  display: block;
+  background-color: #ffa5a5;
+  padding: 20px 0px;
+}
+.social-icon-mob-div {
+  text-align: center;
+  margin: 30px 0px 1px 0px;
+}
+.social-icon-mob {
+  margin: 2px 30px;
+  font-size: 40px;
+  color: white;
+}
+.copyright-mob-div {
+  text-align: center;
+  margin: 40px 0px 10px 0px;
+}
+.copyright-mob-text {
+  color: white;
+  font-size: 30px;
+}
+.designer-mob {
+  color: white;
+  font-size: 30px;
+}
+
+
+/* media query ends here */
+}
